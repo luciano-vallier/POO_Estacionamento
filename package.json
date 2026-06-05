@@ -1,0 +1,10 @@
+{
+  "type": "module",
+  "name": "estacme-fase1",
+  "version": "1.0.0",
+  "description": "Sistema de Controle de Estacionamento - Fase 1",
+  "main": "App.js",
+  "scripts": {
+    "start": "node App.js"
+  }
+}

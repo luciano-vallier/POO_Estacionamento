@@ -1,0 +1,13 @@
+documento;nome;tipo;placas;saldo;debito
+12345678912;Bernardo;Professor;ABD1234;;
+12345678901;Joao Silva;Estudante;ABC1D23;70;
+23456789012;Maria Santos;Estudante;DEF2E34;35;
+34567890123;Carlos Oliveira;Professor;JKL4G56,GHI3F45;;
+45678901234;Ana Costa;Professor;MNO5H67,PQR6I78;;
+56789012345;TecnoPuc S.A.;Empresa;STU7J89,VWX8K90,YZA9L01;;90
+67890123456;Empresa Inova;Empresa;BCD1M23,EFG2N34,HIJ3O45,KLM4P56;;120
+78901234567;Lucas Rodrigues;Estudante;NOP5Q67;-5;
+89012345678;Beatriz Lima;Professor;QRS6R78,TUV7S89;;
+90123456789;Tech Solutions;Empresa;WXY8T90;;30
+10234567890;Camila Martins;Empresa;ZAB9U01,CDE1V23;;30
+02594310018;Luciano Vallier;Estudante;JDJ8I86;50;

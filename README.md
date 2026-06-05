@@ -33,3 +33,39 @@ O sistema controla a entrada, saída, cobrança e gera relatórios gerenciais pa
   4. Histórico de acessos de clientes Avulsos por período (MM/AAAA).
   5. Relação de veículos impedidos de entrar (caloteiros).
   6. Ranking dos 10 clientes mais frequentes do ano.
+
+## 🚀 Como Executar o Projeto
+
+### Pré-requisitos
+Certifique-se de ter o **Node.js** instalado em sua máquina.
+
+### Passos para execução
+1. Clone ou baixe este repositório.
+2. Abra o terminal na pasta raiz do projeto.
+3. Execute o comando abaixo para iniciar o sistema:
+   ```bash
+   node App.js
+   ```
+   *Ou, se preferir usar o script do npm:*
+   ```bash
+   npm start
+   ```
+
+## 📂 Estrutura do Projeto
+/
+├── App.js                         # Ponto de entrada da aplicação
+├── Interface.js                   # Menu interativo do terminal
+├── RegistroDeEntradas_E_Saidas.js # Lógica central de controle do pátio
+├── CadastroClientes.js            # Gerenciamento em memória dos clientes
+├── DadosCSV.js                    # Leitura, sanitização e gravação de arquivos CSV
+├── RelatoriosGerenciais.js        # Métodos de extração de dados e métricas
+├── Tarifas.js                     # Constantes financeiras e cálculos de tempo
+├── TicketEstacionamento.js        # Classe de modelo para os registros
+├── /clientes/                     # Classes de Domínio (Herança)
+│   ├── Cliente.js
+│   ├── Empresa.js
+│   ├── Estudante.js
+│   └── Professor.js
+└── /dados/                        # Pasta gerada automaticamente
+    ├── clientes.csv               # Persistência de cadastros e saldos/débitos
+    └── tickets.csv                # Persistência do histórico e veículos estacionados
