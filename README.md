@@ -1,5 +1,7 @@
 ## 👨‍💻 Autoria
+
 Desenvolvido por **Luciano Vallier** em Março/2026.
+
 Projeto acadêmico - Análise e Desenvolvimento de Sistemas (PUCRS).
 
 
@@ -50,22 +52,3 @@ Certifique-se de ter o **Node.js** instalado em sua máquina.
    ```bash
    npm start
    ```
-
-## 📂 Estrutura do Projeto
-/
-├── App.js                         # Ponto de entrada da aplicação
-├── Interface.js                   # Menu interativo do terminal
-├── RegistroDeEntradas_E_Saidas.js # Lógica central de controle do pátio
-├── CadastroClientes.js            # Gerenciamento em memória dos clientes
-├── DadosCSV.js                    # Leitura, sanitização e gravação de arquivos CSV
-├── RelatoriosGerenciais.js        # Métodos de extração de dados e métricas
-├── Tarifas.js                     # Constantes financeiras e cálculos de tempo
-├── TicketEstacionamento.js        # Classe de modelo para os registros
-├── /clientes/                     # Classes de Domínio (Herança)
-│   ├── Cliente.js
-│   ├── Empresa.js
-│   ├── Estudante.js
-│   └── Professor.js
-└── /dados/                        # Pasta gerada automaticamente
-    ├── clientes.csv               # Persistência de cadastros e saldos/débitos
-    └── tickets.csv                # Persistência do histórico e veículos estacionados
